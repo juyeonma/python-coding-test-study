@@ -1,5 +1,5 @@
 # python 코딩 테스트 스터디
-[This Repository](https://github.com/juyeonma/python-coding-test-study/blob/main/greedy/)
+[This Repository](https://github.com/juyeonma/python-coding-test-study/blob/main/)
 
 ```
 1. 스터디: KT AIVLE School 동기들과 진행
