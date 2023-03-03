@@ -17,7 +17,7 @@
 ||05_볼링공 고르기|1|✔||-|[깃허브](./greedy/이코테_05_볼링공%20고르기_0228.md)|
 ||20300_서강근육맨|실버3|✔||[백준](https://www.acmicpc.net/problem/20300)|[깃허브](./greedy/백준_20300_서강근육맨_0228.md)|
 ||1541_잃어버린 괄호|실버2|✔||[백준](https://www.acmicpc.net/problem/1541)|[깃허브](./greedy/백준_1541_잃어버린%20괄호_0228.md)|
-||1931_회의실 배정|실버1|✔||[백준](https://www.acmicpc.net/problem/1931)|[깃허브](./greedy/백준_1931_회의실%20배정_0228.md)|
+||1931_회의실 배정|실버1|✔|❔|[백준](https://www.acmicpc.net/problem/1931)|[깃허브](./greedy/백준_1931_회의실%20배정_0228.md)|
 ||19598_최소 회의실 개수|골드5|❌||[백준](https://www.acmicpc.net/problem/19598)|[깃허브](./greedy/)|
 ||1715_카드 정렬하기|골드4|✔||[백준](https://www.acmicpc.net/problem/1715)|[깃허브](./greedy/백준_1715_카드%20정렬하기_0228.md)|
 ||2812_크게 만들기|골드3|❌||[백준](https://www.acmicpc.net/problem/2812)|[깃허브](./greedy/)|
