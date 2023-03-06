@@ -9,6 +9,8 @@
 
 [정렬(sorting)](#정렬sorting)
 
+[이진 탐색(binary search)](#이진-탐색binary-search)
+
 <br>
 
 ## How To
@@ -49,6 +51,9 @@
 |12_기둥과 보 설치|1.5(Lv.3)|||[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/60061)|[깃허브](./implementation/)|
 |13_치킨 배달(백준_15686)|2(골드5)|||[백준](https://www.acmicpc.net/problem/15686)|[깃허브](./implementation/)|
 |1913_달팽이|실버3|||[백준](https://www.acmicpc.net/problem/1913)|[깃허브](./implementation/)|
+|12933_오리|실버3|||[백준](https://www.acmicpc.net/problem/12933)|[깃허브](./implementation/)|
+|20207_달력|실버1|||[백준](https://www.acmicpc.net/problem/20207)|[깃허브](./implementation/)|
+|20164_홀수 홀릭 호석|골드5|||[백준](https://www.acmicpc.net/problem/20164)|[깃허브](./implementation/)|
 
 <br>
 
@@ -61,6 +66,12 @@
 |18_괄호 변환|1(Lv.2)|||[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/60058)|[깃허브](./graph_traversal/)|
 |19_연산자 끼워 넣기(백준_14888)|2(실버1)|||[백준](https://www.acmicpc.net/problem/14888)|[깃허브](./graph_traversal/)|
 |21_인구 이동(백준_16234)|2(골드5)|||[백준](https://www.acmicpc.net/problem/16234)|[깃허브](./graph_traversal/)|
+|2606_바이러스|실버3|||[백준](https://www.acmicpc.net/problem/2606)|[깃허브](./graph_traversal/)|
+|1260_트리의 부모 찾기|실버2|||[백준](https://www.acmicpc.net/problem/1260)|[깃허브](./graph_traversal/)|
+|2178_효율적인 해킹|실버1|||[백준](https://www.acmicpc.net/problem/2178)|[깃허브](./graph_traversal/)|
+|1260_DFS와 BFS|실버2|||[백준](https://www.acmicpc.net/problem/1260)|[깃허브](./graph_traversal/)|
+|16918_봄버맨|실버1|||[백준](https://www.acmicpc.net/problem/16918)|[깃허브](./graph_traversal/)|
+|22856_트리 순회|골드4)|||[백준](https://www.acmicpc.net/problem/22856)|[깃허브](./graph_traversal/)|
 
 <br>
 
@@ -71,3 +82,16 @@
 |24_안테나(백준_18310)|1(실버3)|||[백준](https://www.acmicpc.net/problem/18310)|[깃허브](./sorting/)|
 |25_실패율|1(Lv.1)|||[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42889)|[깃허브](./sorting/)|
 |26_카드 정렬하기(백준_1715)|2(골드4)|||[백준](https://www.acmicpc.net/problem/1715)|[깃허브](./sorting/)|
+|1449_수리공항승|실버3|||[백준](https://www.acmicpc.net/problem/1449)|[깃허브](./sorting/)|
+|1431_시리얼번호|실버3|||[백준](https://www.acmicpc.net/problem/1431)|[깃허브](./sorting/)|
+|3273_두수의합|실버3|||[백준](https://www.acmicpc.net/problem/3273)|[깃허브](./sorting/)|
+|18870_좌표압축|실버2|||[백준](https://www.acmicpc.net/problem/18870)|[깃허브](./sorting/)|
+|1946_신입사원|실버1|||[백준](https://www.acmicpc.net/problem/1946)|[깃허브](./sorting/)|
+
+<br>
+
+### [이진 탐색(binary search)](./binary_search/)
+|문제명|난이도|성공|다시풀기|문제|풀이|
+|-----|:----:|:----:|:----:|:----:|:---:|
+|이름|난이도|||[백준](https://www.acmicpc.net/problem/1946)|[깃허브](./binary_search/)|
+
