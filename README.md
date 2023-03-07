@@ -60,8 +60,8 @@
 ### [그래프 탐색(graph traversal): DFS/BFS](./graph_traversal/)
 |문제명|난이도|성공|다시풀기|문제|풀이|
 |-----|:----:|:----:|:----:|:----:|:---:|
-|15_특정 거리의 도시 찾기(백준_18352)|1.5(실버2)|||[백준](https://www.acmicpc.net/problem/18352)|[깃허브](./graph_traversal/)|
-|16_연구소(백준_14502)|2(골드4)|||[백준](https://www.acmicpc.net/problem/14502)|[깃허브](./graph_traversal/)|
+|15_특정 거리의 도시 찾기(백준_18352)|1.5(실버2)|✔||[백준](https://www.acmicpc.net/problem/18352)|[깃허브](./graph_traversal/)|
+|16_연구소(백준_14502)|2(골드4)|❌||[백준](https://www.acmicpc.net/problem/14502)|[깃허브](./graph_traversal/)|
 |17_경쟁적 전염(백준_18405)|2(골드5)|||[백준](https://www.acmicpc.net/problem/18405)|[깃허브](./graph_traversal/)|
 |18_괄호 변환|1(Lv.2)|||[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/60058)|[깃허브](./graph_traversal/)|
 |19_연산자 끼워 넣기(백준_14888)|2(실버1)|||[백준](https://www.acmicpc.net/problem/14888)|[깃허브](./graph_traversal/)|
