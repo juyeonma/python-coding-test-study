@@ -1,7 +1,7 @@
 # python 코딩 테스트 스터디
 
 ## 목차
-[그리디(Greedy)](./greedy/README.md)
+[그리디(Greedy)](../greedy/README.md)
 
 [구현(Implementation)](./implementation/README.md)
 
