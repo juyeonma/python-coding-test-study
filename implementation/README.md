@@ -24,7 +24,7 @@
 |08_문자열 재정렬|1|✔||-|[깃허브](./이코테_08_문자열%20재정렬_0306.md)|
 |09_문자열 압축|1.5(Lv.2)|❌|❔|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/60057)|[깃허브](./이코테_09_문자열%20압축_0306_다못품ㅠ.md)|
 |10_자물쇠와 열쇠|1.5(Lv.3)|||[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/60059)|[깃허브](./이코테_10_자물쇠와%20열쇠_0306_아직못품ㅠㅠ.md)|
-|11_뱀(백준_3190)|2(골드4)|❌|❔|[백준](https://www.acmicpc.net/problem/3190)|[깃허브](./implementation/이코테_11_뱀(백준_3190)_0306_중단ㅠ.md)|
+|11_뱀(백준_3190)|2(골드4)|❌|❔|[백준](https://www.acmicpc.net/problem/3190)|[깃허브](./이코테_11_뱀(백준_3190)_0306_중단ㅠ.md)|
 |12_기둥과 보 설치|1.5(Lv.3)|||[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/60061)|[깃허브](./)|
 |13_치킨 배달(백준_15686)|2(골드5)|||[백준](https://www.acmicpc.net/problem/15686)|[깃허브](./)|
 |1913_달팽이|실버3|✔||[백준](https://www.acmicpc.net/problem/1913)|[깃허브](./백준_1913_달팽이_0306.md)|
