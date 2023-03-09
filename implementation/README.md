@@ -17,16 +17,6 @@
 
 <br>
 
-## How To
-### 1. 스터디: KT AIVLE School 동기들과 진행
-- [이것이 취업을 위한 코딩 테스트다](https://github.com/ndb796/python-for-coding-test)
-- [백준](https://www.acmicpc.net)
-- 월, 수, 금 20시
-
-### 2. 개인: 틈틈히 백준, 프로그래머스 문제 풀기
-
-<br>
-
 ## 구현(implementation)
 |문제명|난이도|성공|다시풀기|문제|풀이|
 |-----|:----:|:----:|:----:|:----:|:---:|
