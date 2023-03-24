@@ -1,4 +1,4 @@
-# python 코딩 테스트 스터디
+# python 코딩 테스트 스터디 
 
 ## 목차
 [그리디(Greedy)](./greedy/README.md)
