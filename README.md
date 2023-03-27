@@ -1,26 +1,59 @@
 # python 코딩 테스트 스터디 
-
-## 목차
-[그리디(Greedy)](./greedy/README.md)
-
-[구현(Implementation)](./implementation/README.md)
-
-[그래프 탐색(Graph Traversal): DFS/BFS](./graph_traversal/README.md)
-
-[정렬(Sorting)](./sorting/README.md)
-
-[이진 탐색(Binary Search)](./binary_search/README.md)
-
-[다이나믹 프로그래밍(Dynamic Programming)](./dynamic_programming/README.md)
-
-[최단 경로(Shortest Path)](./shortest_path/README.md)
-
-[그래프 이론(Graph)](./graph/README.md)
+리드미 수정중..
 
 ## How To
-### 1. 스터디: KT AIVLE School 동기들과 진행
-- [이것이 취업을 위한 코딩 테스트다](https://github.com/ndb796/python-for-coding-test)
-- [백준](https://www.acmicpc.net)
-- 월, 수, 금 20시
+1. 무엇을?
+    [백준](https://www.acmicpc.net)  
+    월요일: 실버 3 ~ 실버 1 2문제씩 총 6문제  
+    금요일: 골드 5 ~ 골드 4 2문제씩 총 4문제  
+2. 언제?  
+    월, 금 21시  
+3. 어디서?  
+    teams: 화면공유, 음성  
+4. 어떻게?  
+    주어진 코딩테스트 과제를 수행  
+    파일을 각자 Branch에 push한 후 PR 보냄  
+    (옵션) 서로의 PR을 검토하여 코드 리뷰  
+    스터디 시간: teams에서 랜덤으로 발표자 선정하여 라이브 코딩  
 
-### 2. 개인: 틈틈히 백준, 프로그래머스 문제 풀기
+## 소스코드 파일 이름 규칙
+- 자유롭게 작성
+- 폴더명 또는 소스코드 파일명에 콜론 ":" NO!
+
+## commit 규칙(수정 예정..)
+- commit 메세지: [문제 출처(플랫폼)] 문제이름 / 난이도
+- 터미널에서 작성법:  
+`git commit -m "[BOJ] 2557_Hello World / 브론즈5" -m "https://www.acmicpc.net/problem/2557"`
+- 플랫폼 작성법 통일:  
+    - [이코테] - 이것이 취업을 위한 코딩테스트다
+    - [BOJ] - 백준
+    - [PGS] - 프로그래머스
+    - [LTC] - 리트코드
+    - [CFS] - 코드포스
+    - [SEA] - 삼성SW Expert Academy
+    - [ETC] - 그외
+
+## PR 규칙(수정 예정..)
+- PR 제목: 이름 / 알고리즘 유형 / 날짜 / 짧은 소감
+`마주연 / 구현 / 23.03.27 / 그림을 그려보자. 문제 양치기 하기.`
+- comment:
+    - 기본적으로는 자유롭게
+    - 느낀점, 체감 난이도(쉬웠다, 어려웠다 등등..), 못 푼 문제(결국 답을 찾아본..), 다시 풀어볼 문제, 설명이 필요한 문제 등
+    - 추후 동일 알고리즘을 접할 시 도움이 될 자신만의 회고라고 생각하자.
+    - 다른 사람에게도 참고가 되도록!
+
+## (option) 코드 리뷰 규칙
+- PR에서 코드리뷰를 한다.
+- 전체 코드 흐름을 파악한 뒤, 이 분이 어떻게 풀었을까 이해를 한 후 의견제시
+    - 잘했다고 생각하는 부분
+    - 이렇게 하면 더 좋을 것 같다고 생각하는 부분
+    - 왜 이렇게 풀었는지 궁금한 부분
+    - 또 다른 풀이 방식 제시
+    - 코드의 일부분에다 코드리뷰를 해도 되고 전체 코드 밑 or PR 하나 밑에다 코멘트 작성으로 리뷰를 해도 됩니다.
+
+## 팀원
+[주연](https://github.com/juyeonma9)
+[수연](https://github.com/soocy0718)
+[지원](https://github.com/Yu-jiwon)
+[태민](https://github.com/northfacee)
+[원배](https://github.com/)
