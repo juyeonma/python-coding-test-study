@@ -6,7 +6,7 @@
 <br>
 
 ## 👩 팀원
------
+
 |이름|Github|
 |--|--|
 |마주연| [juyeonma9](https://github.com/juyeonma9)|
@@ -18,7 +18,7 @@
 <br>
 
 ## ✔ 무엇을?
-----
+
 - 백준, BOJ [(https://www.acmicpc.net)](https://www.acmicpc.net)  
 - 월요일: 실버 3 ~ 실버 1 2문제씩 총 6문제  
 - 금요일: 골드 5 ~ 골드 4 2문제씩 총 4문제  
@@ -26,17 +26,13 @@
 <br>
 
 ## 💡 How To
------
+
 ### 언제
 - 월요일, 금요일 21시  
-
-<br>
 
 ### 어디서
 - MS teams
 - 실시간 화면공유, 음성채팅
-
-<br>
 
 ### 어떻게
 1. 이 Repository를 자신의 Github에 fork한다.
@@ -50,7 +46,7 @@
 <br>
 
 ## 🔎 소스코드 파일 이름 규칙
------
+
 - 자유롭게 작성하되, 일관되게 작성해야한다.
 - 폴더명 또는 소스코드 파일명에 콜론 ":" NO!
 - 플랫폼 종류 예시:
@@ -85,7 +81,9 @@ BOJ_1000_A+B_브론즈5.ipynb
 백준 / 구현 / 23.04.03 / 시간복잡도를 신경쓰자
 ```
 - 터미널에서 작성법:  
-`git commit -m "[BOJ] 2557_Hello World / 브론즈5" -m "https://www.acmicpc.net/problem/2557"`
+```
+git commit -m "[BOJ] 2557_Hello World / 브론즈5" -m "https://www.acmicpc.net/problem/2557"
+```
 
 <br>
 
