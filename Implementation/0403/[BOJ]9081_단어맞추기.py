@@ -6,14 +6,10 @@ for _ in range(t):
     s = list(input().rstrip())
     i, j = 0, 1
     for idx in range(1, len(s)):
-        print(s[idx], s[idx-1])
         if s[idx] > s[idx-1]:
             if i < idx:
                 i = idx
-        print(i)
-    print()
     for idx in range(1, len(s)):
-        print(s[idx], s[i - 1])
         if s[idx] > s[i - 1]:
             if j < idx:
                 j = idx
