@@ -24,4 +24,4 @@ for _ in range(n):
             if flag:
                 break
         else:
-            print(*word)
+            print(*word) 
