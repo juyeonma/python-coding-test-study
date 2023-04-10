@@ -25,7 +25,11 @@ for i in range(r):
             data[i][j] = '.'
         elif data[i][j] == '#':
             if ground[j] == r:
+<<<<<<< HEAD
                 ground[j] = i  # 최솟값
+=======
+                ground[j] = i
+>>>>>>> upstream/suyeon
 d = r
 for i in range(s):
     if star[i] and d > ground[i] - max(star[i]):
