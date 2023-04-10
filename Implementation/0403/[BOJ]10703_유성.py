@@ -25,7 +25,7 @@ for i in range(r):
             data[i][j] = '.'
         elif data[i][j] == '#':
             if ground[j] == r:
-                ground[j] = i
+                ground[j] = i  # 최솟값
 d = r
 for i in range(s):
     if star[i] and d > ground[i] - max(star[i]):
