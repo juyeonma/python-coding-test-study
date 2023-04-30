@@ -29,7 +29,7 @@ arr = sorted(list(map(int, input().split())))
 # n수가 작아서, 그냥 for문에서 i의 범위를 n-1까지로 했다.
 
 answer = 1
-# 0~n-1 일 때: n-3, n-2, n-1.
+# 0~n-1 일 때: n-3, n-2, n-1
 for i in range(n-1):
     for k in range(n-1, i, -1):
         # 삼각관계라면

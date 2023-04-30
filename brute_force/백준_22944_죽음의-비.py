@@ -39,7 +39,7 @@ len_min = abs(sx-x) + abs(sy-y)
 if h - len_min >= 0:
     print(len_min)
     
-# 우산을 써야만 한다면,
+# 우산을 써야만 한다면,,
 else:
     answer = 1e9
     # 우산지대를 순서대로 들려보자.
