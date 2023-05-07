@@ -9,8 +9,11 @@
     - 지그재그: 4가지
     - 우자: 4가지
 - 행 대칭, 열 대칭, 시계방향 90도 회전 -> 경우의 수 8가지.
-- 모든 좌표에서 도형별, 대칭/회전별 모든 경우의 수 탐색하며 최댓값 찾기.
-
+- 방법 1.
+    - 모든 좌표에서 도형별, 대칭/회전별 모든 경우의 수 탐색하며 최댓값 찾기.
+- 방법 2.
+    - 처음부터 경우의 수 19가지를 만들어놓고, 모든 좌표 탐색하여 최댓값 찾기.
+    
 - nieun 대칭 및 회전 예시
 1. 원본
 0 1 2 2
@@ -62,8 +65,9 @@
 - 디버깅을 해보니, 도형별 모든 대칭/회전이 이루어지지 않고 한개씩만 계산되는걸 발견.
 - 왜..? 코드 어디에 문제 있는지 모르겠음 ㅠㅠ
 '''
-# code
+  
 
+# 방법 1. code
 import sys
 input = sys.stdin.readline
 
@@ -141,6 +145,67 @@ def solve():
     print(answer)
     
 solve()
+
+
+# 방법 2. code -> 실패
+import sys
+input = sys.stdin.readline
+
+# 행 대칭, 열 대칭, 시계방향 90도 회전 -> 경우의 수 8가지.
+eight_n = [(0, 0, 1), (1, 0, 0), (0, 1, 1), \
+    (0, 1, 0), (1, 1, 0), (1, 0, 1), (1, 1, 1)]
+
+tetromino_x = [[0, 0, 0, 0], [0, 0, 1, 1], [0, 1, 2, 2], [0, 1, 1, 2], [0, 0, 0, 1]]
+tetromino_y = [[0, 1, 2, 3], [0, 1, 0, 1], [0, 0, 0, 1], [0, 0, 1, 1], [0, 1, 2, 1]]
+tetromino_n = [1, 0, 7, 3, 3]
+
+for j in range(5):
+    i = tetromino_n[j]
+    for row, col, rotate in eight_n[:i]:
+        tmp_x, tmp_y = [], []
+        for jj in range(4):
+            add_x, add_y = tetromino_x[j][jj], tetromino_y[j][jj]
+            if rotate:
+                add_x, add_y = -add_y, -add_x
+                
+            if row: 
+                add_y *= -1
+                
+            if col:
+                add_x *= -1
+            tmp_x.append(add_x)
+            tmp_y.append(add_y)
+        tetromino_x.append(tmp_x)
+        tetromino_y.append(tmp_y)
+'''
+# 위 코드대로 만들면, 이런 list를 얻음
+tetromino_x = [[0, 0, 0, 0], [0, 0, 1, 1], [0, 1, 2, 2], [0, 1, 1, 2], [0, 0, 0, 1], \
+    [0, -1, -2, -3], [0, 0, 0, -1], [0, 1, 2, 2], [0, 0, 0, 1], [0, -1, -2, -2], \
+        [0, -1, -2, -2], [0, 0, 0, -1], [0, 0, 0, 1], [0, 0, -1, -1], [0, 1, 1, 2], \
+            [0, 0, 1, 1], [0, -1, -2, -1], [0, 0, 0, 1], [0, 1, 2, 1]]
+tetromino_y = [[0, 1, 2, 3], [0, 1, 0, 1], [0, 0, 0, 1], [0, 0, 1, 1], [0, 1, 2, 1], \
+    [0, 0, 0, 0], [0, -1, -2, -2], [0, 0, 0, -1], [0, -1, -2, -2], [0, 0, 0, 1], \
+        [0, 0, 0, -1], [0, 1, 2, 2], [0, 1, 2, 2], [0, -1, -1, -2], [0, 0, -1, -1], \
+            [0, -1, -1, -2], [0, 0, 0, -1], [0, -1, -2, -1], [0, 0, 0, -1]]
+'''
+
+n, m = map(int, input().split())
+arr = [list(map(int, input().split())) for _ in range(n)]
+
+answer = 0
+for dx, dy in zip(tetromino_x, tetromino_y):
+    for x in range(n):
+        for y in range(m):
+            tmp = 0
+            for i in range(4):
+                nx = x + dx[i]
+                ny = y + dy[i]
+                if nx < 0 or nx >= n or ny < 0 or ny >= m:
+                    tmp = 0
+                    break
+                tmp += arr[nx][ny]
+            answer = max(answer, tmp)
+print(answer)
 
 '''
 # 결과
