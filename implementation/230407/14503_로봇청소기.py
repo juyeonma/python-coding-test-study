@@ -1,6 +1,8 @@
 n,m = map(int, input().split())
 r,c,d = map(int, input().split())
+
 arr=[] #
+
 for _ in range(n):
     arr.append(list(map(int, input().split())))
     
