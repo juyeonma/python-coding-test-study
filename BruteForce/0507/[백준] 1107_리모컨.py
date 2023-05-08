@@ -58,6 +58,7 @@
 N = int(input())
 M = int(input())
 broken_btn = {}
+
 if M:
     broken_btn = set(input().split())
 

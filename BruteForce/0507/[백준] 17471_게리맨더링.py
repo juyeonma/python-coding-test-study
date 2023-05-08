@@ -5,8 +5,6 @@
 # 진짜 실전인것처럼 푸는것자체에 집중해보려고 노력해봐야겠다. 요즘 너무 정신이 헤이해진 기분이다..정신차리자..
 
 # 주연님 풀이를 참고해서 풀었다. 문법에 대한 여러가지 부분을 배울 수 있었다.
-
-
 from itertools import combinations
 from collections import deque
 

@@ -53,7 +53,6 @@
 #     for x,y in house:
 #         temp+=vis[x][y]
 #     min_distance=min(min_distance,temp)
-
 # print(min_distance)
 
 from itertools import combinations
