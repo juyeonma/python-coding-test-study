@@ -36,6 +36,7 @@ if res<=t:
 else:
     print("Fail")
     
+    
 # 코드 길이 : 838 B
 # 시간 : 76 ms
 # 메모리 : 34192 KB
