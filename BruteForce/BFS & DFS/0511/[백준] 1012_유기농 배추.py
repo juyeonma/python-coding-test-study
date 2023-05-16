@@ -40,3 +40,50 @@ for _ in range(T):    #케이스별로 구하기 위한 for문
             bfs(queue)  # 배추위치 파악하고 
             min_bug+=1  # bfs끝나면 벌레 하나 추가
     print(min_bug)
+
+
+
+#dfs풀이
+#dfs 잘 이해만 하면 유용할 것 같은 느낌이 완전 든다.
+
+t = int(input())
+
+dx=[0,0,1,-1]
+dy=[1,-1,0,0]
+
+def dfs(x,y):
+    # for dir in range(4):
+    #     nx = x+dx[dir]
+    #     ny = y+dy[dir]
+    #     if nx<0 or ny<0 or nx>=n or ny>=m:
+    #         continue
+    #     if land[nx][ny]==1:
+    #         land[nx][ny]=-1
+    #         dfs(nx,ny)
+    if x<0 or y<0 or x>=n or y>=m:
+        return
+    if land[x][y]==0:
+        return
+    land[x][y]=0
+    # dfs(x+1,y)
+    # dfs(x-1,y)
+    # dfs(x,y-1)
+    # dfs(x,y+1)
+    for dir in range(4):
+        dfs(x+dx[dir],y+dy[dir])
+    
+for _ in range(t):
+    cnt=0
+    m,n,k = map(int,input().split())
+    land=[[0]*m for _ in range(n)]
+
+    for _ in range(k):
+        a,b = map(int,input().split())
+        land[b][a]=1
+
+    for i in range(n):
+        for j in range(m):
+            if land[i][j]==1:
+                dfs(i,j)
+                cnt+=1
+    print(cnt)
