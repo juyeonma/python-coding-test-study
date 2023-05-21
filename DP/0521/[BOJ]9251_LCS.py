@@ -21,8 +21,21 @@ s2 = input()
 # 중간에 건너뛰는 것도 가능인가보다..?!
 
 # 결국 답 보았다..
-# 알고보니 누적
-for i in range(len(s1)):
-    id = i
-    data = [0] * len(s1)
+# 알고보니 값을 누적해주는 것이었다.
+# 참고 : https://suri78.tistory.com/11
+# 방법이 하나의 배열을 쓰는 법과 이중 배열을 쓰는 것이 있었는데 이중 배열이 좀 더 이해하기 쉬워서
+# 일단 이중배열답을 참고했다.
+# 이것도 백준에서 다시 풀기 위해 제출은 안했다..!
 
+len1 = len(s1)
+len2 = len(s2)
+matrix = [[0] * (len2 + 1) for _ in range(len1 + 1)]
+
+for i in range(1, len1 + 1):
+    for j in range(1, len2 + 1):
+        if s1[i - 1] == s2[j - 1]:
+            matrix[i][j] = matrix[i - 1][j - 1] + 1
+        else:
+            matrix[i][j] = max(matrix[i - 1][j], matrix[i][j - 1])
+
+print(matrix[-1][-1])
