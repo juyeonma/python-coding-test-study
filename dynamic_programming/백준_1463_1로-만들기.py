@@ -14,8 +14,10 @@
                 
 - 횟수 저장: 
     - 1) list: Bottom-Up에서 좋음
-        - Top-Down에서는 RecursionError 발생
-            - sys.setrecursionlimit(10**6) 추가해도, 메모리 초과
+        - Top-Down에서는 바로 return 하는 조건에 n<=1 을 추가해야함.
+            - 그러지 않으면, list에서 index 0, 1의 값이 0이라서 무한루프에 빠져 메모리 초과
+            - dictionary 로 한것보다 메모리와 시간이 약간 증가
+    
     - 2) dictionary: Top-Down 에서 좋음
         - Bottom-Up에서는 메모리와 시간 증가. 그리고 탐색범위 신경써야함.
     
@@ -48,6 +50,11 @@
 # 1. Top-Down Code
 ## 1번: 31256 KB, 44 ms
 n = int(input())
+'''
+list로 하게 되면? 39068 KB, 56 ms
+dp 저장 테이블: check = [0] * (n+1)
+함수의 조건문도 변경: if check[n] or n<=1:
+'''
 check = {1: 0, 2: 1, 3: 1} # 횟수 저장: 2) dictionary
 
 # 로직: 1) 2와 3 나머지 경우의 수에 따라 최솟값 구하기
@@ -78,6 +85,11 @@ print(make_one(n))
 
 ## 2번: 31256 KB, 40 ms
 n = int(input())
+'''
+list로 하게 되면? 39068 KB, 56 ms
+dp 저장 테이블: check = [0] * (n+1)
+함수의 조건문도 변경: if check[n] or n<=1:
+'''
 check = {1: 0, 2: 1, 3: 1} # 횟수 저장: 2) dictionary
 
 # 로직: 2) 2와 3의 몫과 나머지 덧셈 이용한 최솟값 구하기
