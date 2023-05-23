@@ -12,5 +12,4 @@ d[0]=1
 for i in coins:
     for j in range(i,k+1):
         d[j]+=d[j-i]
-
-print(d[-1])
+print(d[-1])   
