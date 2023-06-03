@@ -30,6 +30,19 @@ R B RR BB
 
 # Review
 - 이것저것 실험해보니까, 굳이 첫글자만 구할 필요 없이 그냥 바로 경계만 세는게 제일 빠르고 간단하다.
+- 여기서 split을 하면 빈 문자열이 생긴다! Why?
+    - 참고: https://www.acmicpc.net/board/view/89882
+    - If sep is given, consecutive delimiters are not grouped together and are deemed to delimit empty strings 
+        (for example, '1,,2'.split(',') returns ['1', '', '2']). 
+    - The sep argument may consist of multiple characters 
+        (for example, '1<>2<>3'.split('<>') returns ['1', '2', '3']). 
+    - Splitting an empty string with a specified separator returns [''].
+    
+- list의 빈 문자열 없애기
+    - 참고: https://jinmay.github.io/2019/06/30/python/python-how-to-delete-empty-string-in-list/
+    1. list comprehension : arr = [i for i in arr if i]
+    2. join()과 split() : arr = ' '.join(arr).split() 
+    3. filter() : arr = list(filter(None, arr))
 '''
 
 # 성공 Code
