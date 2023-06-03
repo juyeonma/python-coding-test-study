@@ -22,6 +22,7 @@ dp[i][j] = [b, max(a, b)]
 
 
 3. 결국 구글링: 전 열의 대각선, 전전 열의 대각선 중 큰 값 + 현재 점수 -> 성공
+- 참고: https://m.blog.naver.com/occidere/220786307316
 j열의 최대 점수 = max(dp[0][j], dp[1][j])
 dp[0][j] = max(dp[1][j-1], dp[1][j-2]) + dp[0][j]
 dp[1][j] = max(dp[0][j-1], dp[0][j-2]) + dp[1][j]
