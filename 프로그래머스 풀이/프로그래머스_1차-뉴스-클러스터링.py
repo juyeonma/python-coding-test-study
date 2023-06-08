@@ -15,13 +15,16 @@
 - 합집합: A와 B의 딕셔너리에 있다면, 최댓값을 더해서 합집합의 길이를 구한다.
 - 최종적으로 자카드 유사도에 65536을 곱한 후 정수로 반환한다.
 
+
 ## 2. isalpha, count 사용: 코드가 더 느려짐
 - isalpha(): 영문자 판별
 - 교집합, 합집합의 각 원소가 A와 B list에서 각각 몇개인지: count 사용
 
-## 3. 중복교집합, 중복합집합 직접 구하기
+
+## 3. 중복집합의 교집합, 합집합 구하기
+- 참고: https://velog.io/@munang/개념정리-파이썬-다중-집합
 - list를 복사해서, 넣고 빼면서 구함.
-- 중복교집합의 길이, 중복합집합의 길이로 최종적으로 유사도 계산
+- 중복집합의 교집합과 합집합의 길이로 최종적으로 유사도 계산
 
 
 # Review
@@ -34,7 +37,7 @@
     - 중복 원소 개수: count 보다 dictionary가 더 빠름. 혹은 직접 집합 구하기.
 '''
 
-# 1. 처음 성공 Code: 처음에는 영문자 판별도 따로 함수로 했는데, 포함한 버전
+# 1. 처음 성공: 처음에는 영문자 판별도 따로 함수로 했는데, 포함한 버전
 # 2개씩 끊은 문자열 list와 중복 갯수를 셀 dictionary 만들기
 def make_arr(s, etc):
     l, d = [], {}
@@ -77,7 +80,7 @@ def solution(str1, str2):
     return int((a/b)*65536)
 
 
-# 2. 다른 사람 풀이 보고: isalpha, count 사용 Code: 코드가 더 느려짐
+# 2. 다른 사람 풀이 보고: isalpha, count 사용: 코드가 더 느려짐
 ## isalpha로 영문자 판별하기, 딕셔너리 대신에 count로 중복 개수 세기
 def make_arr(s):
     l = []
@@ -105,7 +108,7 @@ def solution(str1, str2):
     return int((a/b)*65536)
 
 
-# 3. 중복교집합, 중복합집합 구하기 Code
+# 3. 중복집합의 교집합, 합집합 구하기
 def make_arr(s, etc):
     arr = []
     s = s.lower()
@@ -138,14 +141,6 @@ def solution(str1, str2):
             b.append(i)
 
     return int((len(a)/len(b))*65536)
-'''
-# Result
-풀이 시간: 40분
-1, 3 이 빠름. isalpha와 count 는 느림.
-- 1. 테스트 4 〉통과 (0.76ms, 10.2MB)
-- 2. 테스트 4 〉통과 (9.78ms, 10.3MB)
-- 3. 테스트 4 〉통과 (0.80ms, 10.2MB)
-'''
 
 
 # 다른 사람 풀이: Counter 사용 -> 나중에 보고 이해하기!
@@ -157,3 +152,13 @@ def solution(str1, str2):
     set2 = Counter([str2[i:i+2].upper() for i in range(0, len(str2)-1) if str2[i:i+2].isalpha()])
     J = lambda A, B: 1 if len(A) == 0 and len(B) == 0 else sum((A & B).values()) / sum((A | B).values())
     return int(65536*J(set1, set2))
+
+
+'''
+# Result
+풀이 시간: 40분
+1, 3 이 빠름. isalpha와 count 는 느림.
+- 1. 테스트 4 〉통과 (0.76ms, 10.2MB)
+- 2. 테스트 4 〉통과 (9.78ms, 10.3MB)
+- 3. 테스트 4 〉통과 (0.80ms, 10.2MB)
+'''
