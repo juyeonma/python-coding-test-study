@@ -37,7 +37,6 @@ def is_match(n,attached_lock): # 새로운 lock에 key를 넣었을때 딱 들�
                 return False
     return True
             
-            
 def attach(key,lock,x,y): # 새로운 lock에 key를 넣는 함수
     for i in range(x,len(key)+x):
         for j in range(y,len(key)+y):
