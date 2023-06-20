@@ -1,0 +1,40 @@
+# python 코딩 테스트 스터디
+### 유형별
+[구현(Implementation)](../implementation/README.md)
+
+완전탐색(Brute Force)
+
+[그래프 탐색(Graph Traversal): 너비 우선 탐색(BFS), 깊이 우선 탐색(DFS)](../graph_traversal/README.md)
+
+[탐욕법(Greedy)](../greedy/README.md)
+
+[동적 계획법(Dynamic Programming)](../dynamic_programming/README.md)
+
+[정렬(Sorting)](../sorting/README.md)
+
+[이진 탐색(Binary Search)](../binary_search/README.md)
+
+[최단 경로(Shortest Path)](../shortest_path/README.md)
+
+[기타 그래프 이론(Graph): 최소 신장 트리(MST), 위상 정렬(Topological Sorting)](../graph/README.md)
+
+### 난이도별
+[프로그래머스 Lv. 2](../Programmers/Programmers_Lv2/README.md)
+
+[프로그래머스 Lv. 3](../Programmers/Programmers_Lv3/README.md)
+
+<br>
+
+## 완전탐색(Brute Force)
+### 다시 풀기
+|문제명|난이도|성공|문제|
+|-----|:----:|:----:|:----:|
+|16937_두 스티커|실버 3|✔|[백준](https://www.acmicpc.net/problem/16937)|
+|9996_한국이 그리울 땐 서버에 접속하지|실버 3|❌|[백준](https://www.acmicpc.net/problem/9996)|
+|10472_십자뒤집기|실버 2|❌|[백준](https://www.acmicpc.net/problem/10472)|
+|3085_사탕 게임|실버 2|❌|[백준](https://www.acmicpc.net/problem/3085)|
+|9079_동전 게임|실버 2|❌|[백준](https://www.acmicpc.net/problem/9079)|
+|1107_리모컨|골드 5|❌|[백준](https://www.acmicpc.net/problem/1107)|
+|15686_치킨 배달|골드 5|✔|[백준](https://www.acmicpc.net/problem/15686)|
+|14500_테트로미노|골드 4|❌|[백준](https://www.acmicpc.net/problem/14500)|
+|22944_죽음의 비|골드 4|❌|[백준](https://www.acmicpc.net/problem/22944)|
