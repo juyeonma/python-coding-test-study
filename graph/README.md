@@ -1,27 +1,31 @@
 # python 코딩 테스트 스터디
-
-## 목차
-[그리디(Greedy)](../greedy/README.md)
-
+### 유형별
 [구현(Implementation)](../implementation/README.md)
 
-[그래프 탐색(Graph Traversal): DFS/BFS](../graph_traversal/README.md)
+[완전탐색(Brute Force)](../brute_force/README.md)
+
+[그래프 탐색(Graph Traversal): 너비 우선 탐색(BFS), 깊이 우선 탐색(DFS)](../graph_traversal/README.md)
+
+[탐욕법(Greedy)](../greedy/README.md)
+
+[동적 계획법(Dynamic Programming)](../dynamic_programming/README.md)
 
 [정렬(Sorting)](../sorting/README.md)
 
 [이진 탐색(Binary Search)](../binary_search/README.md)
 
-[다이나믹 프로그래밍(Dynamic Programming)](../dynamic_programming/README.md)
-
 [최단 경로(Shortest Path)](../shortest_path/README.md)
 
-그래프 이론(Graph)
+기타 그래프 이론(Graph): 최소 신장 트리(MST), 위상 정렬(Topological Sorting)
+
+### 난이도별
+[프로그래머스 Lv. 2](../Programmers/Programmers_Lv2/README.md)
+
+[프로그래머스 Lv. 3](../Programmers/Programmers_Lv3/README.md)
 
 <br>
 
-## 그래프 이론(Graph)
-|문제명|난이도|성공|다시풀기|문제|풀이|
-|-----|:----:|:----:|:----:|:----:|:---:|
-|41_여행계획|2|✔||-|[깃허브](./)|
-|42_탑승구|2|✔||-|[깃허브](./)|
-|43_어두운 길|2|✔||-|[깃허브](./)|
+## 기타 그래프 이론(Graph): 최소 신장 트리(MST), 위상 정렬(Topological Sorting)
+### 다시 풀기
+|문제명|난이도|성공|문제|
+|-----|:----:|:----:|:----:|
