@@ -37,4 +37,6 @@
 |81302_거리두기 확인하기|Lv. 2|✔|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/81302)|
 |86052_빛의 경로 사이클|Lv. 2|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/86052)|
 |150368_이모티콘 할인행사|Lv. 2|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/150368)|
+|42860_조이스틱|Lv. 2|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42860)|
+|42584_주식가격|Lv. 2|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42584)|
 
