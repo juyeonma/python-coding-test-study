@@ -7,7 +7,6 @@
 # 딕셔너리에 차례대로 넣다가 딕셔너리에 추천 학생이 없고 n명이 꽉차있으면 딕셔너리 확인후 가장 
 # 오래된것을 삭제하고 새로운 학생을 추가한다
 
-
 n = int(input())
 m = int(input())
 nums = list(map(int, input().split()))
