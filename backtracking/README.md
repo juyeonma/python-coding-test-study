@@ -6,13 +6,13 @@
 
 [그래프 탐색(Graph Traversal): 너비 우선 탐색(BFS), 깊이 우선 탐색(DFS)](/graph_traversal/README.md)
 
-[백트래킹(Backtracking)](/backtracking/README.md)
+백트래킹(Backtracking)
 
 [탐욕법(Greedy)](/greedy/README.md)
 
 [동적 계획법(Dynamic Programming)](/dynamic_programming/README.md)
 
-정렬(Sorting)
+[정렬(Sorting)](/sorting/README.md)
 
 [이분 탐색(Binary Search)](/binary_search/README.md)
 
@@ -32,11 +32,7 @@
 
 <br>
 
-## 정렬(Sorting)
+## 백트래킹(Backtracking)
 ### 다시 풀기
 |문제명|난이도|성공|문제|
 |-----|:----:|:----:|:----:|
-|18310_안테나(이코테_24)|실버 3|❌|[백준](https://www.acmicpc.net/problem/18310)|
-|3273_두수의합|실버 3|❌|[백준](https://www.acmicpc.net/problem/3273)|
-|18870_좌표압축|실버 2|❌|[백준](https://www.acmicpc.net/problem/18870)|
-|1946_신입사원|실버 1|❌|[백준](https://www.acmicpc.net/problem/1946)|
