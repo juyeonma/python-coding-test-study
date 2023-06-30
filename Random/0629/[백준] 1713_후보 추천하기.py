@@ -19,9 +19,9 @@ for i,num in enumerate(nums):
             min_v=sorted(check_dict.items(),key=lambda x:(x[1][0],x[1][1]))[0]
             del check_dict[min_v[0]]
         check_dict[num]=[1,i]
+print(*sorted(check_dict))
+# result=sorted(check_dict.items(),key=lambda x:x[0])
 
-result=sorted(check_dict.items(),key=lambda x:x[0])
-
-print(*list(map(lambda x:x[0], result)))
+# print(*list(map(lambda x:x[0], result)))
 
 # 메모리 31256kb 시간40ms
