@@ -47,6 +47,8 @@
 |21608_상어 초등학교|골드 5|❌|[백준](https://www.acmicpc.net/problem/21608)|
 |14719_빗물|골드 5|✔|[백준](https://www.acmicpc.net/problem/14719)|
 |15683_감시|골드 5|✔|[백준](https://www.acmicpc.net/problem/15683)|
+|14891_톱니바퀴|골드 5|✔|[백준](https://www.acmicpc.net/problem/14891)|
 |5685_드래곤 커브|골드 4|✔|[백준](https://www.acmicpc.net/problem/5685)|
+|20056_마법사 상어와 파이어볼|골드 4|✔|[백준](https://www.acmicpc.net/problem/20056)|
 |17406_배열 돌리기 4|골드 4|❌|[백준](https://www.acmicpc.net/problem/17406)|
 |3190_뱀(이코테_11)|골드 4|❌|[백준](https://www.acmicpc.net/problem/3190)|
