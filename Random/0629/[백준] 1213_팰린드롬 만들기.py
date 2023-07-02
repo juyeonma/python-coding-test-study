@@ -12,6 +12,7 @@
 # 원래 문자열과 새로운 문자열의 길이가 달라진다
 # 다르면 한수를 출력하고 같으면 새로운 문자열을 출력하면 된다.
 
+
 from collections import defaultdict
 
 def func():

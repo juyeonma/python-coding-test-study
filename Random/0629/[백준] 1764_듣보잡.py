@@ -1,7 +1,6 @@
 # input이랑 readline 속도차이가 너무 심했다
 
 # 중복이 없고 교집합을 구하는 것이므로 set을 이용해서 구하면 된다.
-ㄴ
 import sys
 input = sys.stdin.readline
 n,m = map(int, input().split())
@@ -17,3 +16,4 @@ print("".join(intersection))
 # 걸린시간 : 7분
 
 # 시간 3728ms
+
