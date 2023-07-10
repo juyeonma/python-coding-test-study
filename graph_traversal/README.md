@@ -41,5 +41,4 @@
 |14502_연구소(이코테_16)|골드 4|❌|[백준](https://www.acmicpc.net/problem/14502)|
 |18513_샘터|골드 4|❌|[백준](https://www.acmicpc.net/problem/18513)|
 |2636_치즈|골드 4|❌|[백준](https://www.acmicpc.net/problem/2636)|
-
-
+|5547_일루미네이션|골드 4|✔|[백준](https://www.acmicpc.net/problem/5547)|
