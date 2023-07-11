@@ -18,10 +18,7 @@ def pattern1(s):
                 one += 1
         else:
             if zero:
-                s = ''
-                if len(s) == 1:
-                    if s[0] == '0':
-                        s = '0'            
+                s = ''         
         if len(s)>2 and one > 1:
             if s[0] == '0' and s[1] == '0':
                 s = '1'+ ''.join(map(str, s))
