@@ -36,6 +36,7 @@
 ### 다시 풀기
 |문제명|난이도|성공|문제|
 |-----|:----:|:----:|:----:|
+|16918_봄버맨|실버 1|✔|[백준](https://www.acmicpc.net/problem/16918)|
 |16234_인구 이동(이코테_21)|골드 5|✔|[백준](https://www.acmicpc.net/problem/16234)|
 |22856_트리 순회|골드 4|❌|[백준](https://www.acmicpc.net/problem/22856)|
 |14502_연구소(이코테_16)|골드 4|❌|[백준](https://www.acmicpc.net/problem/14502)|
