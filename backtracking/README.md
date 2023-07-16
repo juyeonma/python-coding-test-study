@@ -39,3 +39,4 @@
 |15663_N과 M (9)|실버 2|❌|[백준](https://www.acmicpc.net/problem/15663)|
 |14712_넴모넴모 (Easy)|골드 5|❌|[백준](https://www.acmicpc.net/problem/14712)|
 |18430_무기 공학|골드 4|❌|[백준](https://www.acmicpc.net/problem/18430)|
+|9663_N-Queen|골드 4|❌|[백준](https://www.acmicpc.net/problem/9663)|

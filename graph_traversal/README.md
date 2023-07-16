@@ -43,3 +43,5 @@
 |18513_샘터|골드 4|❌|[백준](https://www.acmicpc.net/problem/18513)|
 |2636_치즈|골드 4|❌|[백준](https://www.acmicpc.net/problem/2636)|
 |5547_일루미네이션|골드 4|✔|[백준](https://www.acmicpc.net/problem/5547)|
+|5427_불|골드 4|❌|[백준](https://www.acmicpc.net/problem/5427)|
+|2206_벽 부수고 이동하기|골드 3|❌|[백준](https://www.acmicpc.net/problem/2206)|
