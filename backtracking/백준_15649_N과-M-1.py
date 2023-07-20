@@ -13,7 +13,7 @@
     - 그 수열들을 다시 join으로 줄바꿈을 넣어 출력했다.
 '''
 
-# 성공 Code
+# 1. 성공 Code
 from itertools import permutations
 n, m = map(int, input().split())
 
@@ -25,6 +25,25 @@ for i in permutations(range(1, n+1), m):
 from itertools import permutations
 N, M = map(int, input().split())
 print('\n'.join(list(map(' '.join, permutations(map(str, range(1, N+1)), M)))))
+
+
+# 2. 직접 순열 구현: 성공
+n, m = map(int, input().split())
+visited = [False] * (n+1)
+def backtracking_permutations(result):
+    if len(result) == m:
+        print(*result)
+        return
+    
+    # 순열이므로, 매번 1부터 탐색. 인덱스 하나씩 올려가며, 수열에 추가.
+    for i in range(1, n+1):
+        # 중복을 허락하지 않으므로, 매번 방문 체크
+        if not visited[i]:
+            visited[i] = True
+            backtracking_permutations(result+[i])
+            visited[i] = False
+            
+backtracking_permutations([])
 
 
 '''

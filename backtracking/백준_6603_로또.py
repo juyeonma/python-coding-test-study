@@ -9,7 +9,7 @@
 - 풀이 시간: 30분
 - itertools 라이브러리가 제일 간편하고 편하다.
 - 그런데 명색이 백트래킹 유형이니까, 직접 구현해봤다. 
-    - 조합인 만큼 중복을 방지하는게 포인트였다.
+    - 조합인 만큼 중복을 방지하기 위해 다음 인덱스부터 탐색하는게 포인트였다.
 '''
 
 # Code
@@ -35,30 +35,27 @@ print(' '.join(i))
 
 
 # 2. 직접 조합 구현하기: 성공
+# 원래 visited로 매번 체크했는데, 어짜피 다음 인덱스 부터 탐색하기 때문에 빼도 성공.
 import sys
 input = sys.stdin.readline
 
-def backtracking_combi(combi, idx, cnt):
+def backtracking_combi(combi, idx):
     # 6개 조합 다 구했으면, 출력 후 return
-    if cnt == 6:
+    if len(combi) == 6:
         print(*combi)
         return
     
     # 조합이므로, 중복을 방지하기 위해 다음 인덱스부터 탐색
     # 만약 순열이었다면, 매번 인덱스 0부터 시작해야함.
     for i in range(idx+1, k):
-        if not visited[i]:
-            visited[i] = True
-            backtracking_combi(combi+[s[i]], i, cnt+1)
-            visited[i] = False
+        backtracking_combi(combi+[s[i]], i)
 
 while True:
     k, *s = map(int, input().split())
     
     if k == 0:
         break
-    
-    visited = [False] * k
+
     # 인덱스 0부터 시작하기 위해서, -1을 넣어줌
-    backtracking_combi([], -1, 0)
+    backtracking_combi([], -1)
     print()
