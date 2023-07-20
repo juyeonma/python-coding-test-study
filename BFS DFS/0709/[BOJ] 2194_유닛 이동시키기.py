@@ -1,10 +1,12 @@
 from collections import deque
+import sys
+input = sys.stdin.readline
 n, m, a, b, k = map(int, input().split())
 data = [[0] * m for _ in range(n)]
 visit = [[False] * m for _ in range(n)]
 for _ in range(k):
     x, y = map(int, input().split())
-    data[x-1][y-1] = 0
+    data[x-1][y-1] = -1
     visit[x-1][y-1] = True
 
 s_x, s_y = map(int, input().split())
@@ -23,9 +25,9 @@ def check(x, y):
         if 0 > i or i >= n:
             return False
         for j in range(y, y+b):
-            if 0 > j or j >= n:
+            if 0 > j or j >= m:
                 return False
-            if data[i][j] == 1:
+            if data[i][j] == -1:
                 return False
     return True
 
@@ -48,4 +50,4 @@ if num:
 else:
     print(-1)
 
-# 어디가 틀린거지.....ㅜㅜ
+# 메모리 : 38644	시간 : 1380
