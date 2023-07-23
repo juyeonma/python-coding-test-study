@@ -38,5 +38,8 @@
 |-----|:----:|:----:|:----:|
 |15663_N과 M (9)|실버 2|❌|[백준](https://www.acmicpc.net/problem/15663)|
 |14712_넴모넴모 (Easy)|골드 5|❌|[백준](https://www.acmicpc.net/problem/14712)|
+|2580_스도쿠|골드 5|✔|[백준](https://www.acmicpc.net/problem/2580)|
 |18430_무기 공학|골드 4|❌|[백준](https://www.acmicpc.net/problem/18430)|
 |9663_N-Queen|골드 4|❌|[백준](https://www.acmicpc.net/problem/9663)|
+|1062_가르침|골드 4|❌|[백준](https://www.acmicpc.net/problem/1062)|
+|1941_소문난 칠공주|골드 3|✔|[백준](https://www.acmicpc.net/problem/1941)|
