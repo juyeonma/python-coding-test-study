@@ -76,3 +76,19 @@ print(answer)
 시간:  ms
 코드 길이:  B
 '''
+
+# # 3.
+# n, m = map(int, input().split())
+# graph = [[True] * m for _ in range(n)]
+# answer = 0
+# all_cnt = n*m
+# def dfs(cnt):
+#     global answer
+#     # 모든 칸을 탐색했으니, 경우의 수 + 1
+#     if cnt == all_cnt:
+#         answer += 1
+#         return
+    
+#     # 4 5 -> 20
+#     # x = 5, y = 1
+    
