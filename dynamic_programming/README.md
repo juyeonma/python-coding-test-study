@@ -49,3 +49,5 @@
 |10942_팰린드롬|골드 4|❌|[백준](https://www.acmicp.net/problem/10942)|
 |14722_우유 도시|골드 4|❌|[백준](https://www.acmicp.net/problem/14722)|
 |1633_최고의 팀 만들기|골드 4|❌|[백준](https://www.acmicp.net/problem/1633)|
+|1915_가장 큰 정사각형|골드 4|✔|[백준](https://www.acmicp.net/problem/1915)|
+|2629_양팔저울|골드 3|✔|[백준](https://www.acmicp.net/problem/2629)|
