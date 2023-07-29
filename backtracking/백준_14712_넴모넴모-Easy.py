@@ -38,7 +38,7 @@ https://health-coding.tistory.com/28
 # dy = []
 
 
-# 2. 실패
+# 2. DFS: 실패
 n, m = map(int, input().split())
 graph = [[True]*m for _ in range(n)]
 answer = 0
@@ -77,18 +77,34 @@ print(answer)
 코드 길이:  B
 '''
 
-# # 3.
-# n, m = map(int, input().split())
-# graph = [[True] * m for _ in range(n)]
-# answer = 0
-# all_cnt = n*m
-# def dfs(cnt):
-#     global answer
-#     # 모든 칸을 탐색했으니, 경우의 수 + 1
-#     if cnt == all_cnt:
-#         answer += 1
-#         return
+# # 3. 푸는중
+import sys
+
+n, m = map(int, sys.stdin.readline().split())
+board = [[False] * m for _ in range(n)]
+answer = 0
+def dfs(x, y):
+    global answer
     
-#     # 4 5 -> 20
-#     # x = 5, y = 1
+    # 마지막 칸인 경우, 무사히 배치를 성공했으므로 정답 +1
+    if (x, y) == (n-1, m-1):
+        answer += 1
+        return
     
+    # 새로운 x, y 좌표 설정
+    if y == m-1:
+        nx, ny = x+1, 0
+    else:
+        nx, ny = x, y+1
+        
+    # 이번 칸을 빈칸으로 놔두고 다음 칸으로 넘어감
+    dfs(nx, ny)
+    
+    # 하나라도 빈칸일 경우, 이번 칸에 넴모를 올리고 다음 칸으로 넘어감
+    if not board[x-1][y] or not board[x][y-1] or not board[x-1][y-1]:
+        board[x][y] = True
+        dfs(nx, ny)
+        board[x][y] = False
+
+dfs(1, 1)
+print(answer)
