@@ -46,8 +46,12 @@
 |1106_호텔|골드 5|❌|[백준](https://www.acmicp.net/problem/1106)|
 |2293_동전 1|골드 5|❌|[백준](https://www.acmicp.net/problem/2293)|
 |2565_전깃줄|골드 5|❌|[백준](https://www.acmicp.net/problem/2565)|
+|12865_평범한 배낭|골드 5|✔|[백준](https://www.acmicp.net/problem/12865)|
+|2225_합분해|골드 5|❌|[백준](https://www.acmicp.net/problem/2225)|
+|5557_1학년|골드 5|❌|[백준](https://www.acmicp.net/problem/5557)|
 |10942_팰린드롬|골드 4|❌|[백준](https://www.acmicp.net/problem/10942)|
 |14722_우유 도시|골드 4|❌|[백준](https://www.acmicp.net/problem/14722)|
 |1633_최고의 팀 만들기|골드 4|❌|[백준](https://www.acmicp.net/problem/1633)|
 |1915_가장 큰 정사각형|골드 4|✔|[백준](https://www.acmicp.net/problem/1915)|
 |2629_양팔저울|골드 3|✔|[백준](https://www.acmicp.net/problem/2629)|
+|1520_내리막 길|골드 3|❌|[백준](https://www.acmicp.net/problem/1520)|
