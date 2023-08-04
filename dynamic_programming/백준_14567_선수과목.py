@@ -1,4 +1,5 @@
 #시간초과 때문에 시간이 걸렸다 ㅜ
+
 import sys
 input = sys.stdin.readline
 n,m = map(int,input().split())
@@ -13,6 +14,7 @@ for i,j in sub:
     if dp[i]>=dp[j]:
         dp[j]=dp[i]+1
 
+# for문사용해서 end로 연결하니까 시간이 걸리나보다.. 
 # for i in range(1,n+1):
 #     print(dp[i], end=' ')
 print(*dp[1:])
