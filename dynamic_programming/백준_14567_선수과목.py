@@ -48,3 +48,12 @@ for b in range(1, n+1):
 print(*dp[1:])
 
 
+## 딕셔너리로 해봤으나, 유의미한 속도차이가 없었다. 오히려 딕셔너리 정렬에서 시간이 소요되는 듯 하다.
+## 당연하게도, 정렬하지 않으면 틀린다.
+'''
+prerequisite = dict()
+prerequisite.setdefault(b, []).append(a)
+
+for b, a in sorted(prerequisite.items()):
+    dp[b] += max(map(lambda x: dp[x], a))
+'''
