@@ -1,4 +1,5 @@
 # 런타임 에러,,
+# 이거는 다시 보면 해결할 수 있지 않을까..
 n = int(input())
 grape=[]
 for _ in range(n):
