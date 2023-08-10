@@ -16,7 +16,7 @@ dp[i][j] = dp[i-1][j-1] + dp[i-1][j+1]
 # Review
 - 풀이 시간: 1시간
 - 되게 간단한 문제인데도 불구하고 규칙 찾는데 조금 헤맸다..
-- 그런데 탑다운으로는 왜 실패했을까?
+- 그런데 탑다운으로는 왜 실패했을까? -> i < 1, 즉 수의 길이가 0일 때를 추가하니, 성공했다.
 '''
 
 # Code
@@ -36,14 +36,14 @@ for i in range(2, n+1):
 print(sum(dp[-1]) % 1_000_000_000)
 
 
-# 2. Top-Down: 실패
-## 메모리:  KB, 시간:  ms
+# 2. Top-Down: 실패 -> i < 0 조건 추가 후 성공
+## 메모리: 31256 KB, 시간: 40 ms
 n = int(input())
 dp = [[0] * 10 for _ in range(n+1)]
 dp[1][1:] = [1] * 9
 
 def solve(i, j):
-    if j < 0 or j > 9:
+    if i < 1 or j < 0 or j > 9:
         return 0
     
     if dp[i][j]:
