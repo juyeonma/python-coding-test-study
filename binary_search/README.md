@@ -39,3 +39,6 @@
 |22871_징검다리건너기|실버 1|❌|[백준](https://www.acmicpc.net/problem/22871)|
 |18113_그르다 김가놈|실버 2|❌|[백준](https://www.acmicpc.net/problem/18113)|
 |20495_수열과 헌팅|실버 1|❌|[백준](https://www.acmicpc.net/problem/20495)|
+|2343_기타 레슨|실버 1|❌|[백준](https://www.acmicpc.net/problem/2343)|
+|2470_두 용액|골드 5|❌|[백준](https://www.acmicpc.net/problem/2470)|
+|3020_개똥벌레|골드 5|❌|[백준](https://www.acmicpc.net/problem/3020)|
