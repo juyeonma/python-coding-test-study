@@ -44,3 +44,4 @@
 |150365_미로 탈출 명령어|Lv. 3|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/150365)|
 |43238_입국심사|Lv. 3|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/43238)|
 |17676_[1차] 추석 트래픽|Lv. 3|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/17676)|
+|17678_ [1차] 셔틀버스|Lv. 3|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/17678)|
