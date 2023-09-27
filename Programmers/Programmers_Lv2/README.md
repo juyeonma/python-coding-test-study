@@ -46,4 +46,4 @@
 |150368_이모티콘 할인행사|Lv. 2|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/150368)|
 |42860_조이스틱|Lv. 2|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42860)|
 |42584_주식가격|Lv. 2|❌|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42584)|
-
+|43162_네트워크|Lv. 2|✔|[프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/43162)|
